@@ -41,12 +41,9 @@ Both schemes are packed in the same package.
 
 ### via Package Control
 
-1. Make sure you already have [Package Control](https://packagecontrol.io/installation) installed.
-2. Choose Install Package from the Command Palette (via `Tools → Coomand Palette` from the main menu).
-3. Select `Alabaster Color Scheme` and press <kbd>Enter</kbd>.
-4. Select `Preferences → Color Scheme ...` and pick `Alabaster` or `Alabaster BG` from the menu.
+[Coming...](https://github.com/wbond/package_control_channel/pull/7402)
 
-### or Manual Installation
+### Manual Installation
 
 1. Download `*.sublime-color-scheme` files from this repo.
 2. Select `Preferences → Browse packages` from the main menu.
