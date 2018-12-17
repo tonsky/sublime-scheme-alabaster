@@ -1,0 +1,63 @@
+{
+    "name": "Alabaster BG",
+    "author": "Nikita Prokopov",
+    "variables":
+    {
+        "active":     "#007ACC",
+        "blue":       "#DBF1FF",
+        "green":      "#F1FADF",
+        "dark_green": "#DBECB6",
+        "red":        "#FFE0E0",
+        "magenta":    "#F9E0FF",
+        "yellow":     "#FFFABC",
+        "orange":     "#FFBC5D"
+    },
+    "globals":
+    {
+        "foreground":                  "#000000",
+        "background":                  "#fff",
+        "caret":                       "var(active)",
+        "line_highlight":              "#f0f0f0",
+        "misspelling":                 "#f00",
+        "selection":                   "#eee",
+        "selection_border_width":      "0",
+        "inactive_selection":          "#E0E0E0",
+        "selection_corner_radius":     "2",
+        "highlight":                   "var(orange)",
+        "find_highlight_foreground":   "#000",
+        "find_highlight":              "var(orange)",
+        "brackets_options":            "foreground underline",
+        "brackets_foreground":         "var(active)",
+        "bracket_contents_options":    "foreground underline",
+        "bracket_contents_foreground": "var(active)",
+        "tags_options":                "foreground",
+        "tags_foreground":             "var(active)"
+    },
+    "rules":
+    [
+        {"name":       "Comment",
+         "scope":      "comment, punctuation.definition.comment",
+         "background": "var(yellow)"},
+
+        {"name":       "String",
+         "scope":      "string",
+         "background": "var(green)"},
+
+        {"name":       "Escapes",
+         "scope":      "constant.character.escape, constant.other.placeholder",
+         "background": "var(dark_green)"},
+
+        {"name":       "Constants",
+         "scope":      "constant",
+         "background": "var(magenta)"},
+
+        {"name":       "Definitions",
+         "scope":      "entity.name",
+         "background": "var(blue)"},
+
+        {"name":       "Mistakes",
+         "scope":      "invalid",
+         "foreground": "#c33",
+         "background": "var(red)"}
+    ]
+}

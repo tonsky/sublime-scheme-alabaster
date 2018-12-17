@@ -1,0 +1,67 @@
+{
+    "name": "Alabaster",
+    "author": "Nikita Prokopov",
+    "variables":
+    {
+        "active":    "#007ACC",
+        "selection": "#BFDBFE",
+        "blue":      "#325CC0",
+        "green":     "#448C27",
+        "red":       "#AA3731",
+        "magenta":   "#7A3E9D",
+        "grey":      "#777",
+        "orange":    "#FFBC5D"
+    },
+    "globals":
+    {
+        "foreground":                  "#000000",
+        "background":                  "#F7F7F7",
+        "caret":                       "var(active)",
+        "line_highlight":              "#f0f0f0",
+        "misspelling":                 "var(red)",
+        "selection":                   "var(selection)",
+        "selection_border_width":      "0",
+        "inactive_selection":          "#E0E0E0",
+        "selection_corner_radius":     "2",
+        "highlight":                   "var(orange)",
+        "find_highlight_foreground":   "#000",
+        "find_highlight":              "var(orange)",
+        "brackets_options":            "foreground underline",
+        "brackets_foreground":         "var(active)",
+        "bracket_contents_options":    "foreground underline",
+        "bracket_contents_foreground": "var(active)",
+        "tags_options":                "foreground",
+        "tags_foreground":             "var(active)"
+    },
+    "rules":
+    [
+        {"name":       "Comment",
+         "scope":      "comment, punctuation.definition.comment",
+         "foreground": "var(red)"},
+
+        {"name":       "String",
+         "scope":      "string",
+         "foreground": "var(green)"},
+
+        {"name":       "Escapes",
+         "scope":      "constant.character.escape, constant.other.placeholder",
+         "foreground": "var(grey)"},
+
+        {"name":       "Punctuation",
+         "scope":      "punctuation",
+         "foreground": "var(grey)"},
+
+        {"name":       "Constants",
+         "scope":      "constant",
+         "foreground": "var(magenta)"},
+
+        {"name":       "Definitions",
+         "scope":      "entity.name",
+         "foreground": "var(blue)"},
+
+        {"name":       "Mistakes",
+         "scope":      "invalid",
+         "foreground": "var(red)",
+         "background": "color(var(red) alpha(0.2))"}
+    ]
+}
