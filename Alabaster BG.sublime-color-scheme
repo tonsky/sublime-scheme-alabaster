@@ -17,7 +17,7 @@
         "foreground":                  "#000000",
         "background":                  "#fff",
         "caret":                       "var(active)",
-        "line_highlight":              "#f0f0f0",
+        "line_highlight":              "#00000005",
         "misspelling":                 "#f00",
         "selection":                   "#eee",
         "selection_border_width":      "0",
