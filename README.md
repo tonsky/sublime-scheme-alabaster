@@ -57,6 +57,7 @@ Both schemes are packed in the same package.
 ## Variations
 
 - Version for Visual Studio Code [tonsky/vscode-theme-alabaster](https://github.com/tonsky/vscode-theme-alabaster)
+- Version for Vim [agudulin/vim-colors-alabaster](https://github.com/agudulin/vim-colors-alabaster)
 - Alternative version for Sublime Text 2 [freetonik/Travertine](https://github.com/freetonik/Travertine)
 - Dark version for VS Code [apust/vscode-rubber-theme](https://github.com/apust/vscode-rubber-theme)
 - Original version for LigthTable [tonsky/alabaster-lighttable-skin](https://github.com/tonsky/alabaster-lighttable-skin)
