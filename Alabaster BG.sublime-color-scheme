@@ -4,6 +4,8 @@
     "variables":
     {
         "active":     "#007ACC",
+        "fg":         "#000",
+        "bg":         "#fff",
         "blue":       "#DBF1FF",
         "green":      "#F1FADF",
         "dark_green": "#DBECB6",
@@ -14,12 +16,12 @@
     },
     "globals":
     {
-        "foreground":                  "#000000",
-        "background":                  "#fff",
+        "foreground":                  "var(fg)",
+        "background":                  "var(bg)",
         "caret":                       "var(active)",
-        "line_highlight":              "#00000005",
+        "line_highlight":              "#00000010",
         "misspelling":                 "#f00",
-        "selection":                   "#eee",
+        "selection":                   "#B4D8FD",
         "selection_border_width":      "0",
         "inactive_selection":          "#E0E0E0",
         "selection_corner_radius":     "2",
@@ -36,13 +38,14 @@
     "rules":
     [
         {"name":       "Comment",
-         "scope":      "comment, punctuation.definition.comment",
+         "scope":      "comment, punctuation.definition.comment, invalid comment",
+         "foreground": "#000",
          "background": "var(yellow)"},
 
         {"name":       "String",
          "scope":      "string",
          "background": "var(green)"},
-
+        
         {"name":       "Escapes",
          "scope":      "constant.character.escape, constant.other.placeholder",
          "background": "var(dark_green)"},
@@ -52,11 +55,23 @@
          "background": "var(magenta)"},
 
         {"name":       "Definitions",
-         "scope":      "entity.name",
+         "scope":      "entity.name - entity.name.tag",
          "background": "var(blue)"},
 
+        {"name":       "Punctuation",
+         "scope":      "punctuation - punctuation.section",
+         "foreground": "#00000090"},
+
+        {"name":       "Inner brackets",
+         "scope":      "meta.parens meta.parens punctuation.section, meta.parens meta.brackets punctuation.section, meta.parens meta.braces punctuation.section, meta.brackets meta.parens punctuation.section, meta.brackets meta.brackets punctuation.section, meta.brackets meta.braces punctuation.section, meta.braces meta.parens punctuation.section, meta.braces meta.brackets punctuation.section, meta.braces meta.braces punctuation.section",
+         "foreground": "#00000075"},
+
+        // {"name":       "Inner brackets",
+        //  "scope":      "( meta.parens | meta.brackets | meta.braces ) ( meta.parens | meta.brackets | meta.braces ) punctuation.section",
+        //  "foreground": "#00000075"},
+
         {"name":       "Mistakes",
-         "scope":      "invalid",
+         "scope":      "invalid, invalid string, invalid constant, invalid entity.name, invalid punctuation, invalid source.symbol",
          "foreground": "#c33",
          "background": "var(red)"}
     ]
