@@ -27,13 +27,13 @@ Additionally:
 
 ## Screenshots
 
-![Screenshot](alabaster.png)
+![Screenshot](https://s.tonsky.me/imgs/alabaster.png)
 
 ## Alabaster BG
 
 Alabaster BG is a variation of the same scheme but it uses background color for highlighting instead of text color. The idea is that it is easier to read when all text is black rather than when it changes color every few words. The colored background in that case creates a separate layer which is easier to ignore if you just trying to read the words.
 
-![Screenshot](alabaster_bg.png) 
+![Screenshot](https://s.tonsky.me/imgs/alabaster_bg.png) 
 
 ## Installation
 

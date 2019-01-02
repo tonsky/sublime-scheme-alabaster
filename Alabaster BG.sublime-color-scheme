@@ -59,16 +59,12 @@
          "background": "var(blue)"},
 
         {"name":       "Punctuation",
-         "scope":      "punctuation - punctuation.section",
+         "scope":      "punctuation - punctuation.section, keyword.operator, string punctuation.section",
          "foreground": "#00000090"},
 
         {"name":       "Inner brackets",
          "scope":      "meta.parens meta.parens punctuation.section, meta.parens meta.brackets punctuation.section, meta.parens meta.braces punctuation.section, meta.brackets meta.parens punctuation.section, meta.brackets meta.brackets punctuation.section, meta.brackets meta.braces punctuation.section, meta.braces meta.parens punctuation.section, meta.braces meta.brackets punctuation.section, meta.braces meta.braces punctuation.section",
          "foreground": "#00000075"},
-
-        // {"name":       "Inner brackets",
-        //  "scope":      "( meta.parens | meta.brackets | meta.braces ) ( meta.parens | meta.brackets | meta.braces ) punctuation.section",
-        //  "foreground": "#00000075"},
 
         {"name":       "Mistakes",
          "scope":      "invalid, invalid string, invalid constant, invalid entity.name, invalid punctuation, invalid source.symbol",
