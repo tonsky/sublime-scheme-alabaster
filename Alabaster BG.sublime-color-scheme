@@ -12,7 +12,7 @@
         "red":        "#FFE0E0",
         "magenta":    "#F9E0FF",
         "yellow":     "#FFFABC",
-        "orange":     "#FFBC5D"
+        "orange":     "#FFBC5D",
     },
     "globals":
     {
@@ -33,7 +33,7 @@
         "bracket_contents_options":    "foreground underline",
         "bracket_contents_foreground": "var(active)",
         "tags_options":                "foreground",
-        "tags_foreground":             "var(active)"
+        "tags_foreground":             "var(active)",
     },
     "rules":
     [
@@ -69,6 +69,18 @@
         {"name":       "Mistakes",
          "scope":      "invalid, invalid string, invalid constant, invalid entity.name, invalid punctuation, invalid source.symbol",
          "foreground": "#c33",
-         "background": "var(red)"}
+         "background": "var(red)"},
+         
+        {"name": "Markup Inserted",
+         "scope": "markup.inserted",
+         "foreground": "hsl(100, 50%, 50%)"},
+
+        {"name": "Markup Deleted",
+         "scope": "markup.deleted",
+         "foreground": "hsl(2, 65%, 50%)"},
+         
+        {"name": "Markup Changed",
+         "scope": "markup.changed",
+         "foreground": "hsl(30, 85%, 50%)"},
     ]
 }
