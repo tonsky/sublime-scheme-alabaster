@@ -62,6 +62,21 @@
         {"name":       "Mistakes",
          "scope":      "invalid",
          "foreground": "var(red)",
-         "background": "color(var(red) alpha(0.2))"}
+         "background": "color(var(red) alpha(0.2))"},
+
+        {"scope": "markup.deleted.git_gutter",
+         "foreground": "var(red)"},
+
+        {"scope": "markup.changed.git_gutter",
+         "foreground": "var(blue)"},
+
+        {"scope": "markup.inserted.git_gutter",
+         "foreground": "var(green)"},
+
+        {"scope": "markup.ignored.git_gutter",
+         "foreground": "var(grey)"},
+
+        {"scope": "markup.untracked.git_gutter",
+         "foreground": "var(grey)"}
     ]
 }
