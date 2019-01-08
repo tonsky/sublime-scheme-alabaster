@@ -39,9 +39,10 @@ Alabaster BG is a variation of the same scheme but it uses background color for 
 
 Both schemes are packed in the same package.
 
-### via Package Control
+### Via Package Control
 
-[Coming...](https://github.com/wbond/package_control_channel/pull/7402)
+1. `Tools` → `Command Palette...` → `Package Control: Install Package` → `Alabaster Color Scheme`.
+2. Select `Preferences → Color Scheme ...` and pick `Alabaster` or `Alabaster BG` from the menu.
 
 ### Manual Installation
 
