@@ -37,12 +37,12 @@
     },
     "rules":
     [
-        {"name":       "Comment",
+        {"name":       "Comments",
          "scope":      "comment, punctuation.definition.comment, invalid comment",
          "foreground": "#000",
          "background": "var(yellow)"},
 
-        {"name":       "String",
+        {"name":       "Strings",
          "scope":      "string",
          "background": "var(green)"},
         
@@ -71,16 +71,19 @@
          "foreground": "#c33",
          "background": "var(red)"},
          
-        {"name": "Markup Inserted",
-         "scope": "markup.inserted",
+        {"scope": "markup.inserted",
          "foreground": "hsl(100, 50%, 50%)"},
 
-        {"name": "Markup Deleted",
-         "scope": "markup.deleted",
+        {"scope": "markup.deleted",
          "foreground": "hsl(2, 65%, 50%)"},
          
-        {"name": "Markup Changed",
-         "scope": "markup.changed",
+        {"scope": "markup.changed",
          "foreground": "hsl(30, 85%, 50%)"},
+
+        {"scope": "markup.ignored",
+         "foreground": "#aaa"},
+
+        {"scope": "markup.untracked",
+         "foreground": "#aaa"}
     ]
 }
