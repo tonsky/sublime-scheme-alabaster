@@ -62,3 +62,4 @@ Both schemes are packed in the same package.
 - Alternative version for Sublime Text 2 [freetonik/Travertine](https://github.com/freetonik/Travertine)
 - Dark version for VS Code [apust/vscode-rubber-theme](https://github.com/apust/vscode-rubber-theme)
 - Original version for LigthTable [tonsky/alabaster-lighttable-skin](https://github.com/tonsky/alabaster-lighttable-skin)
+- Version for [CudaText](https://sourceforge.net/projects/cudatext/files/addons/themes/theme.Alabaster.zip/download)
