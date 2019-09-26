@@ -45,17 +45,15 @@
         {"name":       "Strings",
          "scope":      "string",
          "background": "var(green)"},
-        
+
         {"name":       "Escapes",
          "scope":      "constant.character.escape, constant.other.placeholder",
          "background": "var(dark_green)"},
 
-        // {"name":       "Constants",
-        //  "scope":      "constant",
-        //  "background": "var(magenta)"},
         {"name":       "Constants",
-         "scope":      "constant, punctuation.definition.constant",
-         "foreground": "#7A3E9D"},
+         "scope":      "constant, constant.numeric, constant.language, punctuation.definition.constant",
+         "foreground": "var(fg)",
+         "background": "var(magenta)"},
 
         {"name":       "Definitions",
          "scope":      "entity.name - entity.name.tag",
@@ -73,13 +71,13 @@
          "scope":      "invalid, invalid string, invalid constant, invalid entity.name, invalid punctuation, invalid source.symbol",
          "foreground": "#c33",
          "background": "var(red)"},
-         
+
         {"scope": "markup.inserted",
          "foreground": "hsl(100, 50%, 50%)"},
 
         {"scope": "markup.deleted",
          "foreground": "hsl(2, 65%, 50%)"},
-         
+
         {"scope": "markup.changed",
          "foreground": "hsl(30, 85%, 50%)"},
 
