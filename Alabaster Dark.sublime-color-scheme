@@ -13,7 +13,7 @@
         "caret":                       "var(active)",
         "line_highlight":              "#ffffff10",
         "misspelling":                 "#f00",
-        "selection":                   "#ffffff10",
+        "selection":                   "#3c4c4d",
         "selection_border_width":      "0",
         "selection_corner_radius":     "2",
         "highlight":                   "var(active)",
