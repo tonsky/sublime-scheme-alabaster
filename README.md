@@ -35,6 +35,28 @@ Alabaster BG is a variation of the same scheme but it uses background color for 
 
 ![Screenshot](https://s.tonsky.me/imgs/alabaster_bg.png) 
 
+## What our users [are saying](https://marketplace.visualstudio.com/items?itemName=tonsky.theme-alabaster&ssr=false#review-details)?
+
+> It's like I had this weight on my eyes, and now it's gone. Awesome!
+
+– Alex Sugak ★★★★★
+
+> After your theme others looks like unreadable neon things 🤯
+
+– lamartire ★★★★★
+
+> Minimalistic cool
+
+– denisgrib ★★★★★
+
+> Super minimal and undistracting. Easy to read.
+
+– Josh Bernitt ★★★★★
+
+> A little bit confusing at first if you're from The Dark Land. But then you just chill.
+
+– aenor.realm ★★★★★
+
 ## Installation
 
 Both schemes are packed in the same package.
