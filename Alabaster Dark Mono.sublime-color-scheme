@@ -1,19 +1,23 @@
 {
-    "name": "Alabaster Dark",
+    "name": "Alabaster Dark Mono",
     "author": "Nikita Prokopov",
     "variables":
     {
-        "fg": "#CECECE",
-        "active": "#CD974B"
+        "middle": "#999",
+        "bright": "#EEE",
+        "dark": "#555",
+        "active": "#CD974B",
+        // "active": "#16BDEC"
     },
     "globals":
     {
-        "foreground":                  "var(fg)",
-        "background":                  "#0E1415",
+        "foreground":                  "var(middle)",
+        "background":                  "#111",
         "caret":                       "var(active)",
-        "line_highlight":              "#ffffff10",
+        "line_highlight":              "#ffffff0C",
         "misspelling":                 "#f00",
-        "selection":                   "#293334",
+        "selection":                   "#ffffff20",
+        // "selection_foreground":        "#fff",
         "selection_border_width":      "0",
         "selection_corner_radius":     "2",
         "highlight":                   "var(active)",
@@ -30,16 +34,15 @@
     [
         {"name":       "Comments",
          "scope":      "comment, punctuation.definition.comment, invalid comment",
-         // "foreground": "#000",
-         "foreground": "#DFDF8E"},
+         "foreground": "var(bright)"},
 
         {"name":       "Strings",
-         "scope":      "string",
-         "foreground": "#95CB82"},
+         "scope":      "string, string punctuation",
+         "foreground": "var(bright)"},
         
         {"name":       "Escapes \n",
          "scope":      "constant.character.escape, constant.other.placeholder",
-         "background": "#ffffff10"},
+         "background": "#ffffff20"},
 
         // {"name":       "Constants",
         //  "scope":      "constant",
@@ -47,23 +50,23 @@
 
         {"name":       "Constants",
          "scope":      "constant, punctuation.definition.constant",
-         "foreground": "#71ADE7"},
+         "foreground": "var(bright)"},
 
         {"name":       "Definitions",
          "scope":      "entity.name - entity.name.tag",
-         "foreground": "#CC8BC9"},
+         "foreground": "var(bright)"},
 
-        {"name":       "Punctuation",
-         "scope":      "punctuation - punctuation.section, keyword.operator, string punctuation.section",
-         "foreground": "#708B8D"},
+        // {"name":       "Punctuation",
+        //  "scope":      "punctuation - punctuation.section, keyword.operator",
+        //  "foreground": "var(dark)"},
 
-        // {"name":       "Outer brackets",
-        //  "scope":      "meta.parens punctuation.section, meta.brackets punctuation.section, meta.braces punctuation.section",
-        //  "foreground": "#708B8D"},
+        {"name":       "Outer brackets",
+         "scope":      "meta.parens punctuation.section, meta.brackets punctuation.section, meta.braces punctuation.section",
+         "foreground": "var(bright)"},
 
         {"name":       "Inner brackets",
          "scope":      "meta.parens meta.parens punctuation.section, meta.parens meta.brackets punctuation.section, meta.parens meta.braces punctuation.section, meta.brackets meta.parens punctuation.section, meta.brackets meta.brackets punctuation.section, meta.brackets meta.braces punctuation.section, meta.braces meta.parens punctuation.section, meta.braces meta.brackets punctuation.section, meta.braces meta.braces punctuation.section",
-         "foreground": "color(var(fg) alpha(0.4))"},
+         "foreground": "var(middle)"},
 
         {"name":       "Mistakes",
          "scope":      "invalid, invalid string, invalid constant, invalid entity.name, invalid punctuation, invalid source.symbol",

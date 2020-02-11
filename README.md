@@ -25,15 +25,15 @@ Additionally:
 
 - Alabaster only highlights things that parser could identify reliably. I believe that if highlighting works only partially then it does more harm than good. When highlighting works reliably, your brain learns to rely on it. When it’s not reliable, your brain spends precious brain cycles to re-check everything it sees on the screen.
 
-## Screenshots
-
-![Screenshot](https://s.tonsky.me/imgs/alabaster.png)
-
-## Alabaster BG
+## Variations
 
 Alabaster BG is a variation of the same scheme but it uses background color for highlighting instead of text color. The idea is that it is easier to read when all text is black rather than when it changes color every few words. The colored background in that case creates a separate layer which is easier to ignore if you just trying to read the words.
 
-![Screenshot](https://s.tonsky.me/imgs/alabaster_bg.png) 
+Alabaster Dark is just a dark version based on the same principles.
+
+Alabaster Dark Mono is a monochromatic dark version, with only cursor and occasional errors/search results highlighted.
+
+![Screenshot](https://s.tonsky.me/imgs/alabaster_family.png)
 
 ## What our users [are saying](https://marketplace.visualstudio.com/items?itemName=tonsky.theme-alabaster&ssr=false#review-details)?
 
