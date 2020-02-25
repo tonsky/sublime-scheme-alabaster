@@ -5,7 +5,7 @@
     {
         "middle": "#999",
         "bright": "#EEE",
-        "dark": "#555",
+        "dark": "#333",
         "active": "#CD974B",
         // "active": "#16BDEC"
     },
@@ -34,7 +34,8 @@
     [
         {"name":       "Comments",
          "scope":      "comment, punctuation.definition.comment, invalid comment",
-         "foreground": "var(bright)"},
+         // "foreground": "var(bright)",
+         "background": "var(dark)"},
 
         {"name":       "Strings",
          "scope":      "string, string punctuation",
@@ -54,7 +55,8 @@
 
         {"name":       "Definitions",
          "scope":      "entity.name - entity.name.tag",
-         "foreground": "var(bright)"},
+         "foreground": "var(bright)",
+         "background": "var(dark)"},
 
         // {"name":       "Punctuation",
         //  "scope":      "punctuation - punctuation.section, keyword.operator",
