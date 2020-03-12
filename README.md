@@ -31,7 +31,7 @@ Alabaster BG is a variation of the same scheme but it uses background color for 
 
 Alabaster Dark is just a dark version based on the same principles.
 
-Alabaster Dark Mono is a monochromatic dark version, with only cursor and occasional errors/search results highlighted.
+Alabaster Mono and Alabaster Dark Mono are monochromatic version, with only cursor and occasional errors/search results highlighted.
 
 ![Screenshot](https://s.tonsky.me/imgs/alabaster_family.png)
 
