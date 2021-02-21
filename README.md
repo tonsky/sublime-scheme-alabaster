@@ -33,7 +33,7 @@ Alabaster Dark is just a dark version based on the same principles.
 
 Alabaster Mono and Alabaster Dark Mono are monochromatic version, with only cursor and occasional errors/search results highlighted.
 
-![Screenshot](https://s.tonsky.me/imgs/alabaster_family.png)
+![Screenshot](alabaster_family.png)
 
 ## What our users [are saying](https://marketplace.visualstudio.com/items?itemName=tonsky.theme-alabaster&ssr=false#review-details)?
 
@@ -63,19 +63,15 @@ Both schemes are packed in the same package.
 
 ### Via Package Control
 
-1. `Tools` → `Command Palette...` → `Package Control: Install Package` → `Alabaster Color Scheme`.
-2. Select `Preferences → Color Scheme ...` and pick `Alabaster` or `Alabaster BG` from the menu.
+First, install Alabaster via Package Control:
 
-### Manual Installation
+1. `Tools` → `Command Palette...` → `Package Control: Install Package`
+2. Select `Alabaster Color Scheme` and press Enter.
 
-1. Download `*.sublime-color-scheme` files from this repo.
-2. Select `Preferences → Browse packages` from the main menu.
-3. Copy `*.sublime-color-scheme` files to `Packages/User/`.
-4. Select `Preferences → Color Scheme ...` and pick `Alabaster` or `Alabaster BG` from the menu.
+Then, enable it:
 
-## License
-
-[MIT License](./LICENSE.txt)
+3. Select `Preferences → Color Scheme ...`
+4. Pick `Auto`, then `Alabaster` (or `Alabaster BG`) for light variant and `Alabaster Dark` for dark variant.
 
 ## Variations
 
@@ -86,3 +82,19 @@ Both schemes are packed in the same package.
 - Dark for Visual Studio Code [apust/vscode-rubber-theme](https://github.com/apust/vscode-rubber-theme)
 - for LigthTable [tonsky/alabaster-lighttable-skin](https://github.com/tonsky/alabaster-lighttable-skin)
 - for [CudaText](https://sourceforge.net/projects/cudatext/files/addons/themes/theme.Alabaster.zip/download)
+
+## See also
+
+[Writer Color Scheme](https://github.com/tonsky/writer-scheme-alabaster): minimal color scheme for long-term writing.
+
+[Profile Switcher](https://github.com/tonsky/sublime-profiles): Switch quickly between writing and coding profiles.
+
+[Fira Code](https://github.com/tonsky/FiraCode/): Best coding font in the world.
+
+## Credits
+
+Made by [Niki Tonsky](https://twitter.com/nikitonsky).
+
+## License
+
+[MIT License](./LICENSE.txt)
