@@ -47,11 +47,11 @@
 
         {"name":       "Constants",
          "scope":      "constant, punctuation.definition.constant",
-         "foreground": "#71ADE7"},
+         "foreground": "#CC8BC9"},
 
         {"name":       "Definitions",
          "scope":      "entity.name - entity.name.tag",
-         "foreground": "#CC8BC9"},
+         "foreground": "#71ADE7"},
 
         {"name":       "Punctuation",
          "scope":      "punctuation - punctuation.section, keyword.operator, string punctuation.section",
