@@ -82,6 +82,7 @@ Then, enable it:
 - Dark for Visual Studio Code [apust/vscode-rubber-theme](https://github.com/apust/vscode-rubber-theme)
 - for LigthTable [tonsky/alabaster-lighttable-skin](https://github.com/tonsky/alabaster-lighttable-skin)
 - for [CudaText](https://sourceforge.net/projects/cudatext/files/addons/themes/theme.Alabaster.zip/download)
+- for Windows Terminal [awbv/Windows-Terminal-Alabaster-Scheme](https://github.com/awbv/Windows-Terminal-Alabaster-Scheme)
 
 ## See also
 
