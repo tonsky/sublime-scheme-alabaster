@@ -86,7 +86,7 @@ Then, enable it:
 
 ## See also
 
-[Writer Color Scheme](https://github.com/tonsky/writer-scheme-alabaster): minimal color scheme for long-term writing.
+[Writer Color Scheme](https://github.com/tonsky/sublime-scheme-writer): minimal color scheme for long-term writing.
 
 [Profile Switcher](https://github.com/tonsky/sublime-profiles): Switch quickly between writing and coding profiles.
 
