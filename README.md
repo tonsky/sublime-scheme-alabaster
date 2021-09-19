@@ -86,6 +86,7 @@ Then, enable it:
 - for Xresources [anmolmathias/xresources-alabaster](https://github.com/anmolmathias/xresources-alabaster)
 - for iTerm2 [mkaschenko/iterm2-theme-alabaster](https://github.com/mkaschenko/iterm2-theme-alabaster)
 - for Emacs [uzhne/alabaster-emacs](https://github.com/uzhne/alabaster-emacs/blob/master/alabaster-theme.el)
+- for Android Studio [chrisetheridge/alabaster-android](https://github.com/chrisetheridge/alabaster-android)
 
 ## See also
 
