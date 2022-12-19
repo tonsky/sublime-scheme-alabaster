@@ -88,6 +88,7 @@ Then, enable it:
 - for Emacs [uzhne/alabaster-emacs](https://github.com/uzhne/alabaster-emacs/blob/master/alabaster-theme.el)
 - for Android Studio [chrisetheridge/alabaster-android](https://github.com/chrisetheridge/alabaster-android)
 - for Kitty Terminal [anmolmathias/kitty-alabaster](https://github.com/anmolmathias/kitty-alabaster)
+- for NeoVim [p00f/alabaster.nvim](https://github.com/p00f/alabaster.nvim)
 
 ## See also
 
