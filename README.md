@@ -78,6 +78,8 @@ Then, enable it:
 - for Visual Studio Code [tonsky/vscode-theme-alabaster](https://github.com/tonsky/vscode-theme-alabaster)
 - for Vim [agudulin/vim-colors-alabaster](https://github.com/agudulin/vim-colors-alabaster)
 - for JetBrains IDEs (IntelliJ IDEA etc) [tonsky/intellij-alabaster](https://github.com/tonsky/intellij-alabaster)
+- for JetBrains IDEs as a plugin [vlnabatov/alabaster-theme] (https://github.com/vlnabatov/alabaster-theme)
+- for JetBrains IDEs as a plugin (dark version)[vlnabatov/alabaster-dark-theme] (https://github.com/vlnabatov/alabaster-dark-theme)
 - for Sublime Text 2 (unofficial) [freetonik/Travertine](https://github.com/freetonik/Travertine)
 - Dark for Visual Studio Code [apust/vscode-rubber-theme](https://github.com/apust/vscode-rubber-theme)
 - for LigthTable [tonsky/alabaster-lighttable-skin](https://github.com/tonsky/alabaster-lighttable-skin)
