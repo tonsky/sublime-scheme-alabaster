@@ -89,6 +89,7 @@ Then, enable it:
 - for Android Studio [chrisetheridge/alabaster-android](https://github.com/chrisetheridge/alabaster-android)
 - for Kitty Terminal [anmolmathias/kitty-alabaster](https://github.com/anmolmathias/kitty-alabaster)
 - for Warp Terminal [arsenydubrovin/warp-alabaster-theme](https://github.com/arsenydubrovin/warp-alabaster-theme)
+- for Zed [tsimoshka/zed-theme-alabaster](https://github.com/tsimoshka/zed-theme-alabaster)
 
 ## See also
 
