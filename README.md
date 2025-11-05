@@ -76,7 +76,7 @@ Then, enable it:
 ## Variations
 
 - for Visual Studio Code [tonsky/vscode-theme-alabaster](https://github.com/tonsky/vscode-theme-alabaster)
-- for Vim [agudulin/vim-colors-alabaster](https://github.com/agudulin/vim-colors-alabaster)
+- for Vim [agudulin/vim-colors-alabaster](https://github.com/agudulin/vim-colors-alabaster) [sderev/alabaster.vim](https://github.com/sderev/alabaster.vim)
 - for NeoVim [p00f/alabaster.nvim](https://git.sr.ht/~p00f/alabaster.nvim)
 - for JetBrains IDEs (IntelliJ IDEA etc) [tonsky/intellij-alabaster](https://github.com/tonsky/intellij-alabaster)
 - for Sublime Text 2 (unofficial) [freetonik/Travertine](https://github.com/freetonik/Travertine)
