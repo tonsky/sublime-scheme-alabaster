@@ -86,7 +86,7 @@ Then, enable it:
 - for Windows Terminal [awbv/Windows-Terminal-Alabaster-Scheme](https://github.com/awbv/Windows-Terminal-Alabaster-Scheme)
 - for Xresources [anmolmathias/xresources-alabaster](https://github.com/anmolmathias/xresources-alabaster)
 - for iTerm2 [mkaschenko/iterm2-theme-alabaster](https://github.com/mkaschenko/iterm2-theme-alabaster)
-- for Emacs [uzhne/alabaster-emacs](https://github.com/uzhne/alabaster-emacs/blob/master/alabaster-theme.el)
+- for Emacs [uzhne/alabaster-emacs](https://github.com/uzhne/alabaster-emacs/blob/master/alabaster-theme.el), [vedang/alabaster-themes](https://github.com/vedang/alabaster-themes)
 - for Android Studio [chrisetheridge/alabaster-android](https://github.com/chrisetheridge/alabaster-android)
 - for Kitty Terminal [anmolmathias/kitty-alabaster](https://github.com/anmolmathias/kitty-alabaster)
 - for Warp Terminal [arsenydubrovin/warp-alabaster-theme](https://github.com/arsenydubrovin/warp-alabaster-theme)
