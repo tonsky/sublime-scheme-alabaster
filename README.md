@@ -91,6 +91,7 @@ Then, enable it:
 - for Kitty Terminal [anmolmathias/kitty-alabaster](https://github.com/anmolmathias/kitty-alabaster)
 - for Warp Terminal [arsenydubrovin/warp-alabaster-theme](https://github.com/arsenydubrovin/warp-alabaster-theme)
 - for Zed [tsimoshka/zed-theme-alabaster](https://github.com/tsimoshka/zed-theme-alabaster)
+- for Helix [wolf/alabaster-for-helix](https://github.com/wolf/alabaster-for-helix)
 
 ## See also
 
